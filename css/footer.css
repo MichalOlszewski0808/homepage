@@ -1,0 +1,17 @@
+.footer {
+    margin: 10px 0px 10px;
+    border: 2px solid rgb(185, 179, 179);
+}
+
+.footer__contact {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 10px;
+    line-height: 10px;
+    color: crimson;
+    margin: 5px;
+}
+
+.footer__contact--size {
+    font-size: small;
+}

@@ -1,0 +1,28 @@
+.table__tableCell {
+    border: 2px solid crimson;
+    padding: 20px;
+    text-align: center;
+}
+
+.table__tableCell--header {
+    background-color: rgb(240, 149, 149);
+}
+
+.table {
+    overflow-x: auto;
+    box-shadow: 3px 3px 5px lightpink;
+}
+
+.table__container {
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+
+.table__tableCell:hover {
+    background-color: rgba(32, 35, 52, 0.4);
+}
+
+.table__tableCell--header:hover {
+    background-color: rgb(245, 110, 110);
+}

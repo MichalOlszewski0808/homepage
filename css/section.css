@@ -1,0 +1,22 @@
+.section__paragraph {
+    line-height: 200%;
+    border: 2px solid rgb(185, 179, 179);
+    box-shadow: 3px 3px 5px #aaa;
+}
+
+.section__circularPhoto {
+    max-width: 65%;
+    border-radius: 300px;
+    box-shadow: 3px 3px 5px #aaa;
+}
+
+.section__circularPhoto--smallPhoto {
+    max-width: 20%;
+}
+
+.section__text {
+    display: block;
+    align-items: center;
+    text-align: justify;
+    line-height: 1.5;
+}

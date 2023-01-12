@@ -1,0 +1,19 @@
+.body {
+    display: block;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.body--darkBackground {
+    background-color: rgba(32, 35, 52, 0.934);
+    color: #ddd;
+}
+
+
+.body--brightBackground {
+    background-color: whitesmoke;
+    color: black;
+}

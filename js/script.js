@@ -1,18 +1,23 @@
-let changeBackgroundButton = document.querySelector(
-  ".js-navigation__listItem--changeBackgroundButton"
-);
-let body = document.querySelector(".js-body");
-let nextColorName = document.querySelector(".js-navigation__nextColorName");
+{
+  const body = document.querySelector(".js-body");
+  const changeBackground = () => {
+    body.classList.toggle("body--brightBackground");
+  };
 
-changeBackgroundButton.addEventListener("click", () => {
-  body.classList.toggle("body--brightBackground");
-  nextColorName.innerText = body.classList.contains("body--brightBackground")
-    ? "CIEMNY"
-    : "JASNY";
-});
+  const nextColorName = document.querySelector(".js-navigation__nextColorName");
+  const changeText = () => {
+    nextColorName.innerText = body.classList.contains("body--brightBackground")
+      ? "CIEMNY"
+      : "JASNY";
+  };
 
-// if (document.body.classList.contains("brightBackground")) {
-//   changeBackgroundButton.innerText = "ciemny motyw";
-// } else {
-//    changeBackgroundButton.innerText = "jasny motyw";
-// }
+  const init = () => {
+    const changeBackgroundButton = document.querySelector(
+      ".js-navigation__listItem--changeBackgroundButton"
+    );
+    changeBackgroundButton.addEventListener("click", changeBackground);
+    changeBackgroundButton.addEventListener("click", changeText);
+  };
+
+  init();
+}

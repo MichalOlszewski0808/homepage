@@ -12,7 +12,7 @@
   };
 
   const init = () => {
-    const changeBackgroundButton = document.querySelector(
+  const changeBackgroundButton = document.querySelector(
       ".js-navigation__listItem--changeBackgroundButton"
     );
     changeBackgroundButton.addEventListener("click", changeBackground);

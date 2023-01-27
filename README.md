@@ -4,7 +4,7 @@
 
 ## Demo
 
-https://michu0808.github.io/homepage/
+https://michalolszewski0808.github.io/homepage/
 
 ## Description
 
